@@ -1,0 +1,25 @@
+Installation
+Mobile Application
+Currently the application is not uploaded to Android Playstore but can be downloaded by the following:
+1. Open Android Emulator
+2. Go to location or AVD C:Users/asus/AppData/Local/Android/SDK/Emulator
+3. Right click to open powershell/cmd type : ./emulator -avd Galaxy_Nexus_API_27 -no-snapshot
+4. Once opened, go to file location asa ta kaon
+5. Go to android directory and open PowerShell/CMD and ./gradlew clean
+6. Once cleaned, cd..
+7. Lastly, run react native using command react-native run-android
+After these steps are followed, the application can be transferred via phone by the following:
+1. You must connect your phone to the computer and must only have one device connected.
+2. Open Settings, open About Phone (it depends on the phone) and click the Build Number (it depends on the phone) 7 times to show the developer options then go back to the settings.
+3. On the developer options and USB debugging button.
+4. On the project folder go to powershell/cmd and type the code react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+5. Afterwards cd android
+6. Type ./gradlew clean
+7. Then cd..
+8. Lastly, input react-native run-android
+Admin Application
+1. Download Node.js 10.15.1 from
+2. Click the downloaded NODE.JS file
+3. Install and run NODE.JS 10.15.1
+4. Open command prompt and type npm install
+5. Type npm run start in command prompt to open the admin system it will directly open browser

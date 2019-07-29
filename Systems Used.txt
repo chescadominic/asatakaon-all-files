@@ -1,0 +1,7 @@
+1. Sublime Text / Visual Studio Code
+2. Node version 10
+3. Java SE Development Kit 8
+4. Java SE Runtime Environment 8
+5. Git (latest version)
+6. Android Studio
+
